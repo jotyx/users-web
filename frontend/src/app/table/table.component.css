@@ -1,0 +1,6 @@
+.users-table table {
+  width:500px;
+  border-collapse: collapse;
+  padding: 6px;
+  text-align: left;
+}

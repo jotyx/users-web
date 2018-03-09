@@ -1,0 +1,20 @@
+body {
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
+button {
+  background-color: rgb(214, 174, 64);
+  border-radius: 3px;
+  color: white;
+  padding: 7px 7px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 12px;
+  display: inline-block;
+  border: none;
+}
+
+button:hover {
+  background-color: rgb(233, 185, 52);
+  transition: all .2s ease-in-out;
+}

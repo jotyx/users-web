@@ -1,0 +1,11 @@
+<div class="table-row">
+  <tr *ngFor="let user of users">
+    <td>
+      {{ user.name }}  
+    </td>
+    <td class="table-buttons">
+      <button (click)="deleteUser(user)">Delete</button>
+      <button (click)="editUser(user)">Edit</button>
+    </td>
+  </tr>
+</div>

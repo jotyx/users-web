@@ -1,0 +1,8 @@
+<div class="users-table">
+  <table>
+    <tr>
+      <app-table-header [columns]="columns"></app-table-header>
+    </tr>
+    <app-table-row [users]="users" (sendSelectedUser)="getEditedUser($event)"></app-table-row>
+  </table>
+</div>

@@ -1,0 +1,10 @@
+.table-row td {
+  border-collapse: collapse;
+  padding: 6px;
+  border-bottom: 1px solid #ddd;
+  width: 500px;
+}
+
+.table-buttons  {
+  text-align: right;
+}

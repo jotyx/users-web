@@ -1,0 +1,17 @@
+.app-component {
+  padding-left: 60px;
+  padding-top: 40px;
+}
+
+input[type=text] {
+  width: 360px;
+  padding: 8px 15px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 14px;
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
+label {
+  color: red;
+}

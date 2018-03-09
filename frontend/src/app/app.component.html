@@ -1,0 +1,17 @@
+<div class="app-component">
+    <h2 class="table-title">{{ title }}</h2>
+    <app-table #table (sendToApp)="getSelectedUser($event)"></app-table>
+
+    <div class="edit-user" *ngIf="showEditUserBlock">
+        <input type="text" [(ngModel)]="selectedUserName" />
+        <button (click)="updateUser()">Save</button>
+        <button (click)="clearUpdate()">Cancel</button>
+    </div>
+
+    <div class="add-user" *ngIf="showNewUserBlock">
+        <input type="text" [(ngModel)]="newUserName" />
+        <button (click)="addUser()">Add</button>
+    </div>
+
+    <label>{{ errorMessage }}</label>
+</div>
